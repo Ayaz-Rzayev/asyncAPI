@@ -1,6 +1,7 @@
 import db from "../db";
 import { StatusEnum } from "../types";
 
+
 const addToDoQuery = async (
   title: string,
   status: StatusEnum = StatusEnum.Open
@@ -13,7 +14,7 @@ const addToDoQuery = async (
     return rows;
   } catch (error) {
     console.error("🚩", error);
-    throw new Error("Error: adding to do was unseccessful")
+    throw new Error("Error: adding to do was unseccessful");
   }
 };
 export default addToDoQuery;

@@ -1,0 +1,17 @@
+{
+  "$id": "Get",
+
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": ["id", "title", "status"]
+}

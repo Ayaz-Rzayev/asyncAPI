@@ -6,7 +6,7 @@ const getToDosQuery = async () => {
     return rows;
   } catch (error) {
     console.error("🚩", error);
-    throw new Error("Error: couldn't get to dos")
+    throw new Error("Error: couldn't get to dos");
   }
 };
 

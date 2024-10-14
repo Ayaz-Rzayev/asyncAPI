@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import catchAsync from "../catchAsync";
-import addToDoQuery from "../models/addTodoQuery";
+import addToDoQuery from "../models/addToDoQuery";
 
 const addToDo = catchAsync(async (req: Request, res: Response) => {
     const {title, status} = req.body

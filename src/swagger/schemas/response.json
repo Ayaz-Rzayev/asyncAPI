@@ -1,0 +1,36 @@
+{
+    "$id": "Response",
+    "type": "object",
+    "properties": {
+      "fieldCount": {
+        "type": "integer"
+      },
+      "affectedRows": {
+        "type": "integer"
+      },
+      "insertId": {
+        "type": "integer"
+      },
+      "info": {
+        "type": "string"
+      },
+      "serverStatus": {
+        "type": "integer"
+      },
+      "warningStatus": {
+        "type": "integer"
+      },
+      "changedRows": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "fieldCount",
+      "affectedRows",
+      "insertId",
+      "info",
+      "serverStatus",
+      "warningStatus",
+      "changedRows"
+    ]
+  }

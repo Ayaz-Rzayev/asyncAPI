@@ -1,5 +1,5 @@
 import { Router } from "express";
-import getToDos from "../controllers/getTodos";
+import getToDos from "../controllers/getToDos";
 import addToDo from "../controllers/addToDo";
 import updateToDo from "../controllers/updateToDo";
 import deleteToDo from "../controllers/deleteToDo";
@@ -12,4 +12,3 @@ router.put("/update", updateToDo);
 router.delete("/delete", deleteToDo);
 
 export default router;
-    

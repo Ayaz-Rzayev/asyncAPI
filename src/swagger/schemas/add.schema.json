@@ -1,0 +1,16 @@
+{
+    "$id": "Add",
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "title",
+      "status"
+    ]
+  }

@@ -8,7 +8,7 @@ const updateToDoQuery = async (id: any, title?: string, status?: string) => {
     return rows;
   } catch (error) {
     console.error("🚩", error);
-    throw new Error("Error: updating to do was unseccessful")
+    throw new Error("Error: updating to do was unseccessful");
   }
 };
 
